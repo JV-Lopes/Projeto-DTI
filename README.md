@@ -84,7 +84,7 @@ SistemaDeNotas/
 │   └── SistemaDeNotas.java
 ├── bin/                # Opcional, para arquivos compilados
 ├── README.md
-
+````
 Autor
 
-José Vieira
+José Vieira Lopes Neto
