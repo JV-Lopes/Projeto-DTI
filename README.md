@@ -79,10 +79,8 @@ O código é modular e pode ser reutilizado em outros projetos escolares ou acad
 
 ## Estrutura do Projeto
 ````
-SistemaDeNotas/
-├── src/
-│   └── SistemaDeNotas.java
-├── bin/                # Opcional, para arquivos compilados
+DTI/
+├── SistemaDeNotas.java
 ├── README.md
 ````
 Autor
