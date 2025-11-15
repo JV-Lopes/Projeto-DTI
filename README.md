@@ -1,37 +1,35 @@
-# SchoolSystem
+##SistemaDeNotas
 
 Sistema em Java para controle de notas e frequência de alunos, desenvolvido para auxiliar professores na organização de turmas. O programa permite inserir as notas de cinco disciplinas e a frequência de cada aluno, calculando automaticamente médias individuais e médias da turma, além de identificar alunos que precisam de atenção especial.
 
----
+### Instruções para Executar o Sistema
 
-## Instruções para Executar o Sistema
-
-1. Abra o terminal e navegue até a pasta `src/` do projeto:
-
-```bash
-cd SchoolSystem/src
-Compile o programa:
-
-```
-
-```bash
-javac SchoolSystem.java
-Execute o programa:
-
-```
-
-```bash
-java SchoolSystem
 ````
-Insira os dados dos alunos seguindo o formato:
-````
+1. Abra o terminal e navegue até a pasta src/ do projeto:
+
+cd SistemaDeNotas/src
+
+
+2. Compile o programa:
+
+javac SistemaDeNotas.java
+
+
+3. Execute o programa:
+
+java SistemaDeNotas
+
+
+4. Insira os dados dos alunos seguindo o formato:
+
 <Nome> <Nota1> <Nota2> <Nota3> <Nota4> <Nota5> <Frequência%>
 Exemplo:
 João 7 8 6 9 10 80%
 Maria 7 8 6 9 10 70%
 fim
 ````
-Digite fim para encerrar a entrada de dados.
+
+5. Digite fim para encerrar a entrada de dados.
 
 O programa exibirá:
 
@@ -43,7 +41,8 @@ Alunos com média acima da turma
 
 Alunos com frequência abaixo de 75%
 
-Premissas Assumidas
+### Premissas Assumidas
+
 Cada aluno possui exatamente cinco notas, uma para cada disciplina.
 
 A frequência é informada em percentual (0 a 100%).
@@ -54,7 +53,8 @@ O programa considera “média acima da turma” comparando a média do aluno co
 
 Entrada incorreta é rejeitada e o usuário deve recomeçar a digitação do aluno.
 
-Decisões de Projeto
+### Decisões de Projeto
+
 Utilização de uma classe Student para representar cada aluno, com atributos name, grades, attendance e averageGrade.
 
 A média do aluno é calculada automaticamente no construtor da classe.
@@ -69,20 +69,22 @@ Validações de entrada: notas entre 0 e 10, frequência entre 0 e 100%.
 
 Listas de destaque para alunos acima da média e com frequência baixa, mesmo que vazias, para clareza.
 
-Informações Adicionais
+### Informações Adicionais
+
 O projeto pode ser facilmente estendido para ler dados de um arquivo CSV ou de um banco de dados.
 
 Possível integração futura com interface gráfica (Java Swing ou Web) para uma experiência mais interativa.
 
 O código é modular e pode ser reutilizado em outros projetos escolares ou acadêmicos.
 
-Estrutura do Projeto
-```
-SchoolSystem/
+## Estrutura do Projeto
+````
+SistemaDeNotas/
 ├── src/
-│   └── SchoolSystem.java
+│   └── SistemaDeNotas.java
 ├── bin/                # Opcional, para arquivos compilados
 ├── README.md
-```
+
 Autor
+
 José Vieira
