@@ -1,4 +1,4 @@
-##SistemaDeNotas
+## SistemaDeNotas
 
 Sistema em Java para controle de notas e frequência de alunos, desenvolvido para auxiliar professores na organização de turmas. O programa permite inserir as notas de cinco disciplinas e a frequência de cada aluno, calculando automaticamente médias individuais e médias da turma, além de identificar alunos que precisam de atenção especial.
 
